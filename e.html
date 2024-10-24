@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic E-Commerce Website</title>
+    <link rel="stylesheet" href="e.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>
+                <details>
+                    <Summary> My E-Commerce Site</Summary>
+                    <div class="social">
+
+                        <i class="fa-brands fa-square-instagram media"><a class="link" href="https://www.instagram.com/fit_vivek2?igsh=MXJ5NGc0cW5vb2g0eg==">.</a></i>
+                        <i class="fa-brands fa-linkedin media"><a class="link" href="https://www.linkedin.com/in/vivek-jha-65135925b">.</a></i>
+                        <i class="fa-brands fa-square-github media"><a class="About" href="https://github.com/vivek-kumar258">.</a></i>
+                    </div>
+                    <hr>
+
+                </details>
+            </h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+
+                <li><a href="#" id="cart-link">View Cart (<span id="cart-count">0</span>)</a></li>
+                <li>
+                    <a href="#">
+
+                        <details>
+                            <summary title="We have a Two Product">Products</summary>
+                            <p>Men's KURTA</p>
+                            <p>Men's Shirts</p>
+                        </details>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <details>
+                            <summary title="My Email Account">Contact us</summary>
+                            <p>jhavivek9911@gmail.com</p>
+                        </details>
+                    </a>
+                </li>
+
+                <li id="touch" class="menus">
+                    <a href="#social" title="welcoome my social media account"> Get in touch
+                    </a>
+
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+
+    </div>
+    <main>
+        <section class="product-list ">
+            <div class="product">
+                <img src="product1.jpg" alt="Product 1">
+                <h2>Black Cotton Silk Kurta Set For Men </h2>
+                <p>$10.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+
+            </div>
+            <div class="product">
+                <img src="product2.jpg" alt="Product 2">
+                <h2>Black Silk Readymade Kurta Pajama</h2>
+                <p>$20.00</p>
+                <button onclick="addToCart('Product 2', 10)">Add to Cart</button>
+
+            </div>
+            <div class="product">
+                <img src="product4.jpg" alt="Product 2">
+                <h2>Cream Art Silk Punjabi Kurta Pajama For Men</h2>
+                <!-- <h2>Men's Coconut Tree Print Hawaiian Shirt </h2> -->
+                <p>$25.00</p>
+                <button onclick="addToCart('Product4', 10)">Add to Cart</button>
+
+            </div>
+            <div class="product">
+                <img src="product5.jpg" alt="Product 2">
+                <h2>Men Kurta Spring Summer </h2>
+                <p>$20.00</p>
+                <button onclick="addToCart('Product5', 10)">Add to Cart</button>
+
+            </div>
+            <div class="product">
+                <img src="product6.jpg" alt="Product 2">
+                <h2>New Men Wedding Kurta</h2>
+                <p>$18.00</p>
+                <button onclick="addToCart('Product6', 10)">Add to Cart</button>
+
+            </div>
+            <div class="product">
+                <img src="product7.jpg" alt="Product 2">
+                <h2> Black Digital Print Cotton Kurta For Men </h2>
+                <p>$15.00</p>
+                <button onclick="addToCart('Product7', 10)">Add to Cart</button>
+
+            </div>
+            <div class="product">
+                <img src="product8.jpg" alt="Product 2">
+                <h2>Grey Digital Print Mens Kurta Pajama </h2>
+                <p>$18.00</p>
+                <button onclick="addToCart('Product8', 10)">Add to Cart</button>
+
+            </div>
+            <div class="product">
+                <img src="product9.jpg" alt="Product 2">
+                <h2>Black Dupion Silk Men's Kurta With Churidar</h2>
+                <p>$18.00</p>
+                <button onclick="addToCart('Product9', 10)">Add to Cart</button>
+
+            </div>
+            <div class="product">
+                <img src="product10.jpg" alt="Product 2">
+                <h2>Cotton Digital Print Peach Kurta for Men</h2>
+                <p>$18.00</p>
+                <button onclick="addToCart('Product10', 10)">Add to Cart</button>
+
+            </div>
+            <div class="product">
+                <img src="product11.jpg" alt="Product 2">
+                <h2>CAMIZ COTTON KURTA WHITE BROWN</h2>
+                <p>$18.00</p>
+                <button onclick="addToCart('Product11', 10)">Add to Cart</button>
+
+            </div>
+
+        </section>
+        <hr>
+        <section class="product-list main">
+            <div class="product">
+                <img src="product12.jpg" alt="Product 1">
+                <h2> Casual Slim Fit Formal Shirts for Men</h2>
+                <p>$10.00</p>
+                <button onclick="addToCart('Product12', 10)">Add to Cart</button>
+
+            </div>
+            <div class="product">
+                <img src="product13.jpg" alt="Product 2">
+                <h2> Man Shirt Fancy Men Casual floral Dress</h2>
+                <p>$20.00</p>
+                <button onclick="addToCart('Product13', 10)">Add to Cart</button>
+
+            </div>
+            <div class="product">
+                <img src="product14.jpg" alt="Product 2">
+                <h2> New fashion casual Slim Fit Business Dress</h2>
+
+                <p>$25.00</p>
+                <button onclick="addToCart('Product14', 10)">Add to Cart</button>
+
+            </div>
+            <div class="product">
+                <img src="product3.jpg" alt="Product 2">
+                <h2>Men's Coconut Tree Print Hawaiian Shirt </h2>
+                <p>$20.00</p>
+                <button onclick="addToCart('Product15', 10)">Add to Cart</button>
+
+            </div>
+            <div class="product">
+                <img src="product15.jpg" alt="Product 2">
+                <h2> flower printing Men's long sleeve shirts </h2>
+                <p>$18.00</p>
+                <button onclick="addToCart('Product16', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="product16.jpg" alt="Product 2">
+                <h2>New White formal Shirts For Men's</h2>
+                <p>$15.00</p>
+                <button onclick="addToCart('Product16', 10)">Add to Cart</button>
+
+            </div>
+            <div class="product">
+                <img src="product17.jpg" alt="Product 2">
+                <h2><br>Printed Brown Mens Formal Shirts</h2>
+                <p>$18.00</p>
+                <button onclick="addToCart('Product17', 10)">Add to Cart</button>
+
+            </div>
+            <div class="product">
+                <img src="product19.jpg" alt="Product 2">
+                <h2>party-wear shirt</h2>
+                <p>$18.00</p>
+                <button onclick="addToCart('Product19', 10)">Add to Cart</button>
+
+            </div>
+            <div class="product">
+                <img src="product18.jpg" alt="Product 2">
+                <h2> white cotton formal shirt</h2>
+                <p>$18.00</p>
+                <button onclick="addToCart('Produc18', 10)">Add to Cart</button>
+
+            </div>
+            <div class="product">
+                <img src="product20.jpg" alt="Product 2">
+                <h2>Printed formal shirt </h2>
+                <p>$18.00</p>
+                <button onclick="addToCart('Product20', 10)">Add to Cart</button>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My E-Commerce Site</p>
+        <div id="social" class="social">
+
+            <i class="fa-brands fa-square-instagram media"><a class="link" href="https://www.instagram.com/fit_vivek2?igsh=MXJ5NGc0cW5vb2g0eg==">.</a></i>
+            <i class="fa-brands fa-linkedin media"><a class="link" href="https://www.linkedin.com/in/vivek-jha-65135925b">.</a></i>
+            <i class="fa-brands fa-square-github media"><a class="About" href="https://github.com/vivek-kumar258">.</a></i>
+        </div>
+        <hr>
+    </footer>
+
+    <script src="e.js"></script>
+</body>
+
+</html>
